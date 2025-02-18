@@ -11,11 +11,13 @@ There is also a writeup and youtube video of using the above exploit to break ou
 
   ----------------------------------------------------------------------------------------------------------------------------
 #启动容器
+
 cd dirtycow-docker-vdso/
 
 sudo docker-compose run dirtycow /bin/bash
 
 #进入容器，漏洞利用
+
 cd /dirtycow-vdso/
 
 make
